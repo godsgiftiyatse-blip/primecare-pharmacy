@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Contact Us | PrimeCare Pharmacy & Wellness Centre</title>
+<title>Contact Us | PrimeCare Pharmacy</title>
 
 <link rel="stylesheet" href="css/style.css">
 
@@ -14,41 +14,55 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 </head>
 <body>
 
+<!-- HEADER -->
+
 <header>
-    <div class="container header-flex">
+
+    <div class="container nav-container">
 
         <div class="logo">
-            PrimeCare Pharmacy & Wellness Centre
+            <i class="fas fa-clinic-medical"></i>
+            PrimeCare Pharmacy
         </div>
 
         <nav>
-            <ul>
+
+            <ul class="nav-links">
+
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="products.html">Products</a></li>
                 <li><a href="health-tips.html">Health Tips</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="faq.html">FAQ</a></li>
                 <li><a href="contact.html">Contact</a></li>
+
             </ul>
+
         </nav>
 
+        <div class="menu-btn">
+            ☰
+        </div>
+
     </div>
+
 </header>
 
 <!-- HERO -->
 
-<section class="hero" style="min-height:50vh;">
+<section class="hero">
 
     <div class="hero-content">
 
-        <h1>Contact PrimeCare</h1>
+        <span class="hero-badge">
+            Get In Touch
+        </span>
+
+        <h1>Contact PrimeCare Pharmacy</h1>
 
         <p>
-            We're here to answer your questions,
-            provide healthcare guidance, and assist
-            with your pharmacy needs.
+            We're here to answer your questions, process
+            prescriptions, and provide trusted healthcare support.
         </p>
 
     </div>
@@ -61,34 +75,25 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
     <div class="container">
 
-        <h2>Get In Touch</h2>
+        <div class="section-title">
+
+            <h2>Contact Information</h2>
+
+            <p>
+                Reach out to us through any of the channels below.
+            </p>
+
+        </div>
 
         <div class="grid">
 
             <div class="card">
 
-                <i class="fas fa-location-dot"></i>
-
-                <h3>Address</h3>
-
-                <p>
-                    123 Healthcare Avenue<br>
-                    Warri, Delta State<br>
-                    Nigeria
-                </p>
-
-            </div>
-
-            <div class="card">
-
                 <i class="fas fa-phone"></i>
 
-                <h3>Phone</h3>
+                <h3>Phone Number</h3>
 
-                <p>
-                    +234 800 000 0000<br>
-                    +234 900 000 0000
-                </p>
+                <p>+234 800 000 0000</p>
 
             </div>
 
@@ -96,25 +101,19 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
                 <i class="fas fa-envelope"></i>
 
-                <h3>Email</h3>
+                <h3>Email Address</h3>
 
-                <p>
-                    info@primecarepharmacy.com<br>
-                    support@primecarepharmacy.com
-                </p>
+                <p>info@primecarepharmacy.com</p>
 
             </div>
 
             <div class="card">
 
-                <i class="fab fa-whatsapp"></i>
+                <i class="fas fa-location-dot"></i>
 
-                <h3>WhatsApp</h3>
+                <h3>Location</h3>
 
-                <p>
-                    Chat with us directly for
-                    quick support and inquiries.
-                </p>
+                <p>Lagos, Nigeria</p>
 
             </div>
 
@@ -126,77 +125,71 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 <!-- CONTACT FORM -->
 
-<section class="products-preview">
+<section class="services">
 
     <div class="container">
 
-        <h2>Send Us A Message</h2>
+        <div class="section-title">
 
-        <form style="
-        max-width:700px;
-        margin:auto;
-        display:flex;
-        flex-direction:column;
-        gap:15px;
-        ">
+            <h2>Send Us A Message</h2>
 
-            <input
-            type="text"
-            placeholder="Full Name"
-            required
-            style="
-            padding:15px;
-            border:1px solid #ddd;
-            border-radius:10px;
-            ">
+        </div>
 
-            <input
-            type="email"
-            placeholder="Email Address"
-            required
-            style="
-            padding:15px;
-            border:1px solid #ddd;
-            border-radius:10px;
-            ">
+        <div class="card">
 
-            <input
-            type="tel"
-            placeholder="Phone Number"
-            style="
-            padding:15px;
-            border:1px solid #ddd;
-            border-radius:10px;
-            ">
+            <form>
 
-            <input
-            type="text"
-            placeholder="Subject"
-            style="
-            padding:15px;
-            border:1px solid #ddd;
-            border-radius:10px;
-            ">
+                <div style="margin-bottom:20px;">
 
-            <textarea
-            rows="6"
-            placeholder="Your Message"
-            required
-            style="
-            padding:15px;
-            border:1px solid #ddd;
-            border-radius:10px;
-            resize:none;
-            "></textarea>
+                    <input
+                    type="text"
+                    placeholder="Your Name"
+                    required
+                    style="width:100%;padding:15px;border:1px solid #ddd;border-radius:10px;">
 
-            <button
-            type="submit"
-            class="btn"
-            style="border:none;cursor:pointer;">
-            Send Message
-            </button>
+                </div>
 
-        </form>
+                <div style="margin-bottom:20px;">
+
+                    <input
+                    type="email"
+                    placeholder="Your Email"
+                    required
+                    style="width:100%;padding:15px;border:1px solid #ddd;border-radius:10px;">
+
+                </div>
+
+                <div style="margin-bottom:20px;">
+
+                    <input
+                    type="tel"
+                    placeholder="Phone Number"
+                    style="width:100%;padding:15px;border:1px solid #ddd;border-radius:10px;">
+
+                </div>
+
+                <div style="margin-bottom:20px;">
+
+                    <textarea
+                    rows="6"
+                    placeholder="Your Message"
+                    required
+                    style="width:100%;padding:15px;border:1px solid #ddd;border-radius:10px;"></textarea>
+
+                </div>
+
+                <button
+                type="submit"
+                class="btn"
+                style="border:none;cursor:pointer;">
+
+                    Send Message
+
+                </button>
+
+            </form>
+
+        </div>
 
     </div>
 
@@ -208,7 +201,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
     <div class="container">
 
-        <h2>Business Hours</h2>
+        <div class="section-title">
+
+            <h2>Business Hours</h2>
+
+        </div>
 
         <div class="grid">
 
@@ -216,38 +213,69 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
                 <i class="fas fa-clock"></i>
 
-                <h3>Opening Hours</h3>
+                <h3>Monday - Friday</h3>
 
-                <p>
-                    Monday - Friday<br>
-                    8:00 AM - 8:00 PM
-                </p>
+                <p>8:00 AM - 8:00 PM</p>
 
             </div>
 
             <div class="card">
 
-                <i class="fas fa-calendar-day"></i>
+                <i class="fas fa-clock"></i>
 
                 <h3>Saturday</h3>
 
-                <p>
-                    9:00 AM - 6:00 PM
-                </p>
+                <p>9:00 AM - 6:00 PM</p>
 
             </div>
 
             <div class="card">
 
-                <i class="fas fa-calendar-xmark"></i>
+                <i class="fas fa-clock"></i>
 
                 <h3>Sunday</h3>
 
-                <p>
-                    Emergency Support Only
-                </p>
+                <p>10:00 AM - 4:00 PM</p>
 
             </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- WHATSAPP ORDERING -->
+
+<section class="why-us">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Order Through WhatsApp</h2>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fab fa-whatsapp"></i>
+
+            <h3>Fast & Convenient Ordering</h3>
+
+            <p>
+                Send your prescription or product inquiry
+                directly to our WhatsApp support team.
+            </p>
+
+            <br>
+
+            <a href="https://wa.me/2348000000000"
+            class="btn">
+
+                Chat On WhatsApp
+
+            </a>
 
         </div>
 
@@ -257,34 +285,26 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 <!-- MAP -->
 
-<section class="products-preview">
+<section>
 
     <div class="container">
 
-        <h2>Find Our Location</h2>
+        <div class="section-title">
+
+            <h2>Find Us</h2>
+
+        </div>
 
         <div class="card">
 
-            <i class="fas fa-map-location-dot"></i>
-
-            <h3>Google Maps Location</h3>
-
-            <p>
-                Replace this section with your
-                Google Maps embed code when deploying.
-            </p>
-
-            <div style="
-            height:300px;
-            background:#e5e7eb;
-            margin-top:20px;
-            border-radius:12px;
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            ">
-                Google Maps Embed Area
-            </div>
+            <iframe
+            src="https://maps.google.com/maps?q=Lagos%20Nigeria&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="450"
+            style="border:0;border-radius:15px;"
+            allowfullscreen=""
+            loading="lazy">
+            </iframe>
 
         </div>
 
@@ -292,38 +312,57 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 </section>
 
-<!-- SOCIALS -->
+<!-- EMERGENCY SUPPORT -->
 
-<section>
+<section class="services">
 
     <div class="container">
 
-        <h2>Connect With Us</h2>
+        <div class="section-title">
+
+            <h2>Healthcare Support</h2>
+
+        </div>
 
         <div class="grid">
 
             <div class="card">
-                <i class="fab fa-facebook"></i>
-                <h3>Facebook</h3>
-                <p>@PrimeCarePharmacy</p>
+
+                <i class="fas fa-headset"></i>
+
+                <h3>Customer Support</h3>
+
+                <p>
+                    Our team is available to answer questions
+                    about medications and healthcare products.
+                </p>
+
             </div>
 
             <div class="card">
-                <i class="fab fa-instagram"></i>
-                <h3>Instagram</h3>
-                <p>@PrimeCareWellness</p>
+
+                <i class="fas fa-user-doctor"></i>
+
+                <h3>Professional Advice</h3>
+
+                <p>
+                    Speak with our pharmacists for trusted
+                    healthcare guidance.
+                </p>
+
             </div>
 
             <div class="card">
-                <i class="fab fa-x-twitter"></i>
-                <h3>X (Twitter)</h3>
-                <p>@PrimeCareHealth</p>
-            </div>
 
-            <div class="card">
-                <i class="fab fa-linkedin"></i>
-                <h3>LinkedIn</h3>
-                <p>PrimeCare Pharmacy</p>
+                <i class="fas fa-truck"></i>
+
+                <h3>Delivery Assistance</h3>
+
+                <p>
+                    Ask about medication pickup and delivery
+                    options available in your area.
+                </p>
+
             </div>
 
         </div>
@@ -341,36 +380,84 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         <h2>Your Health Is Our Priority</h2>
 
         <p>
-            Contact us today for trusted healthcare,
-            professional guidance, and quality products.
+            Contact PrimeCare Pharmacy today for trusted
+            healthcare solutions and pharmaceutical services.
         </p>
 
-        <a href="https://wa.me/234XXXXXXXXXX"
+        <a href="https://wa.me/2348000000000"
         class="btn">
-        Chat On WhatsApp
+
+            Contact Us Now
+
         </a>
 
     </div>
 
 </section>
 
+<!-- FOOTER -->
+
 <footer>
 
     <div class="container">
 
-        <p>
-            © 2026 PrimeCare Pharmacy & Wellness Centre.
-            All Rights Reserved.
+        <div class="footer-content">
+
+            <div>
+
+                <h3>PrimeCare Pharmacy</h3>
+
+                <p>
+                    Providing trusted healthcare products
+                    and pharmaceutical services.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="products.html">Products</a></li>
+
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h3>Contact</h3>
+
+                <p>+234 800 000 0000</p>
+                <p>info@primecarepharmacy.com</p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+            © 2026 PrimeCare Pharmacy. All Rights Reserved.
         </p>
 
     </div>
 
 </footer>
 
-<a href="https://wa.me/234XXXXXXXXXX"
+<a href="https://wa.me/2348000000000"
 class="whatsapp-float">
-💬
+
+<i class="fab fa-whatsapp"></i>
+
 </a>
 
+<script src="js/script.js"></script>
+
 </body>
-</html>
+                </html>
