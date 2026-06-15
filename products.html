@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Products | PrimeCare Pharmacy & Wellness Centre</title>
+<title>Products | PrimeCare Pharmacy</title>
 
 <link rel="stylesheet" href="css/style.css">
 
@@ -14,66 +14,76 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 </head>
 <body>
 
+<!-- HEADER -->
+
 <header>
-    <div class="container header-flex">
+
+    <div class="container nav-container">
 
         <div class="logo">
-            PrimeCare Pharmacy & Wellness Centre
+            <i class="fas fa-clinic-medical"></i>
+            PrimeCare Pharmacy
         </div>
 
         <nav>
-            <ul>
+
+            <ul class="nav-links">
+
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="products.html">Products</a></li>
                 <li><a href="health-tips.html">Health Tips</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="faq.html">FAQ</a></li>
                 <li><a href="contact.html">Contact</a></li>
+
             </ul>
+
         </nav>
 
+        <div class="menu-btn">
+            ☰
+        </div>
+
     </div>
+
 </header>
 
 <!-- HERO -->
 
-<section class="hero" style="min-height:50vh;">
+<section class="hero">
 
     <div class="hero-content">
+
+        <span class="hero-badge">
+            Quality Healthcare Products
+        </span>
 
         <h1>Our Products</h1>
 
         <p>
-            Browse a wide range of trusted healthcare,
-            wellness, and pharmaceutical products.
+            Explore our wide range of genuine medications,
+            healthcare essentials, vitamins, and wellness products.
         </p>
 
     </div>
 
 </section>
 
-<!-- SEARCH -->
+<!-- INTRO -->
 
 <section>
 
     <div class="container">
 
-        <h2>Find Products</h2>
+        <div class="section-title">
 
-        <div style="max-width:700px;margin:auto;">
+            <h2>Healthcare Products You Can Trust</h2>
 
-            <input
-            type="text"
-            placeholder="Search for medications, vitamins, baby care products..."
-            style="
-            width:100%;
-            padding:15px;
-            border:1px solid #ddd;
-            border-radius:10px;
-            font-size:16px;
-            ">
+            <p>
+                PrimeCare Pharmacy stocks high-quality healthcare
+                products from trusted brands to support your health
+                and wellbeing.
+            </p>
 
         </div>
 
@@ -83,32 +93,55 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 <!-- PRODUCT CATEGORIES -->
 
-<section class="products-preview">
+<section class="featured-products">
 
     <div class="container">
 
-        <h2>Product Categories</h2>
+        <div class="section-title">
+
+            <h2>Product Categories</h2>
+
+        </div>
 
         <div class="grid">
 
             <div class="card">
-                <i class="fas fa-capsules"></i>
-                <h3>Prescription Medicines</h3>
-            </div>
 
-            <div class="card">
                 <i class="fas fa-pills"></i>
+
+                <h3>Prescription Medicines</h3>
+
+                <p>
+                    Authentic prescription medications
+                    for various health conditions.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-capsules"></i>
+
                 <h3>Over-The-Counter Drugs</h3>
+
+                <p>
+                    Relief for common illnesses and
+                    everyday healthcare needs.
+                </p>
+
             </div>
 
             <div class="card">
-                <i class="fas fa-baby"></i>
-                <h3>Baby Care</h3>
-            </div>
 
-            <div class="card">
-                <i class="fas fa-heart-pulse"></i>
-                <h3>Wellness Products</h3>
+                <i class="fas fa-leaf"></i>
+
+                <h3>Vitamins & Supplements</h3>
+
+                <p>
+                    Essential nutrients for overall
+                    wellness and immune support.
+                </p>
+
             </div>
 
         </div>
@@ -123,127 +156,53 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
     <div class="container">
 
-        <h2>Featured Products</h2>
+        <div class="section-title">
+
+            <h2>Featured Products</h2>
+
+        </div>
 
         <div class="grid">
 
             <div class="card">
 
-                <i class="fas fa-tablets"></i>
+                <img
+                src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=800&q=80"
+                alt="Medicine">
 
-                <h3>Paracetamol</h3>
+                <h3>Pain Relief Medication</h3>
 
                 <p>
-                    Effective relief for headaches,
-                    fever, and minor body pains.
+                    Effective solutions for pain and fever management.
                 </p>
-
-                <br>
-
-                <a href="https://wa.me/234XXXXXXXXXX?text=Hello%20PrimeCare,%20I%20want%20to%20order%20Paracetamol"
-                class="btn">
-                Order via WhatsApp
-                </a>
 
             </div>
 
             <div class="card">
 
-                <i class="fas fa-capsules"></i>
+                <img
+                src="https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=800&q=80"
+                alt="Vitamins">
 
-                <h3>Vitamin C</h3>
+                <h3>Multivitamins</h3>
 
                 <p>
-                    Supports immunity and helps
-                    maintain overall wellness.
+                    Daily nutritional support for a healthy lifestyle.
                 </p>
-
-                <br>
-
-                <a href="https://wa.me/234XXXXXXXXXX?text=Hello%20PrimeCare,%20I%20want%20to%20order%20Vitamin%20C"
-                class="btn">
-                Order via WhatsApp
-                </a>
 
             </div>
 
             <div class="card">
 
-                <i class="fas fa-baby"></i>
+                <img
+                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80"
+                alt="Healthcare">
 
-                <h3>Baby Formula</h3>
-
-                <p>
-                    Trusted nutritional support
-                    for infant development.
-                </p>
-
-                <br>
-
-                <a href="https://wa.me/234XXXXXXXXXX?text=Hello%20PrimeCare,%20I%20want%20to%20order%20Baby%20Formula"
-                class="btn">
-                Order via WhatsApp
-                </a>
-
-            </div>
-
-            <div class="card">
-
-                <i class="fas fa-briefcase-medical"></i>
-
-                <h3>First Aid Kit</h3>
+                <h3>Healthcare Essentials</h3>
 
                 <p>
-                    Essential supplies for
-                    emergency and home care.
+                    First aid, hygiene, and wellness products.
                 </p>
-
-                <br>
-
-                <a href="https://wa.me/234XXXXXXXXXX?text=Hello%20PrimeCare,%20I%20want%20to%20order%20First%20Aid%20Kit"
-                class="btn">
-                Order via WhatsApp
-                </a>
-
-            </div>
-
-            <div class="card">
-
-                <i class="fas fa-lungs"></i>
-
-                <h3>Cough Syrup</h3>
-
-                <p>
-                    Fast relief from cough
-                    and throat irritation.
-                </p>
-
-                <br>
-
-                <a href="https://wa.me/234XXXXXXXXXX?text=Hello%20PrimeCare,%20I%20want%20to%20order%20Cough%20Syrup"
-                class="btn">
-                Order via WhatsApp
-                </a>
-
-            </div>
-
-            <div class="card">
-
-                <i class="fas fa-shield-virus"></i>
-
-                <h3>Hand Sanitizer</h3>
-
-                <p>
-                    Helps reduce germs and
-                    supports daily hygiene.
-                </p>
-
-                <br>
-
-                <a href="https://wa.me/234XXXXXXXXXX?text=Hello%20PrimeCare,%20I%20want%20to%20order%20Hand%20Sanitizer"
-                class="btn">
-                Order via WhatsApp
-                </a>
 
             </div>
 
@@ -253,38 +212,208 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 </section>
 
-<!-- WHY OUR PRODUCTS -->
+<!-- BABY CARE -->
 
-<section class="products-preview">
+<section class="services">
 
     <div class="container">
 
-        <h2>Why Buy From Us?</h2>
+        <div class="section-title">
+
+            <h2>Baby Care Products</h2>
+
+        </div>
 
         <div class="grid">
 
             <div class="card">
 
-                <i class="fas fa-shield-heart"></i>
+                <i class="fas fa-baby"></i>
 
-                <h3>100% Genuine Products</h3>
+                <h3>Baby Formula</h3>
 
                 <p>
-                    All products are sourced from
-                    trusted manufacturers and suppliers.
+                    Trusted nutrition products for infant growth.
                 </p>
 
             </div>
 
             <div class="card">
 
-                <i class="fas fa-user-doctor"></i>
+                <i class="fas fa-pump-soap"></i>
 
-                <h3>Professional Advice</h3>
+                <h3>Baby Hygiene</h3>
 
                 <p>
-                    Get guidance from trained
-                    healthcare professionals.
+                    Gentle baby soaps, lotions, and wipes.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-heart"></i>
+
+                <h3>Baby Wellness</h3>
+
+                <p>
+                    Essential healthcare products for infants.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PERSONAL CARE -->
+
+<section>
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Personal Care</h2>
+
+        </div>
+
+        <div class="grid">
+
+            <div class="card">
+
+                <i class="fas fa-tooth"></i>
+
+                <h3>Oral Care</h3>
+
+                <p>
+                    Toothpaste, mouthwash, and dental care essentials.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-hand-sparkles"></i>
+
+                <h3>Skin Care</h3>
+
+                <p>
+                    Lotions, creams, and skincare products.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-spa"></i>
+
+                <h3>Beauty & Wellness</h3>
+
+                <p>
+                    Products to support self-care and confidence.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- MEDICAL DEVICES -->
+
+<section class="why-us">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Medical Devices</h2>
+
+        </div>
+
+        <div class="grid">
+
+            <div class="card">
+
+                <i class="fas fa-heartbeat"></i>
+
+                <h3>Blood Pressure Monitors</h3>
+
+                <p>
+                    Reliable devices for monitoring heart health.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-stethoscope"></i>
+
+                <h3>Diagnostic Tools</h3>
+
+                <p>
+                    Essential healthcare monitoring equipment.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-lungs"></i>
+
+                <h3>Respiratory Care</h3>
+
+                <p>
+                    Products designed to support respiratory health.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- WHY BUY FROM US -->
+
+<section>
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Why Buy From PrimeCare?</h2>
+
+        </div>
+
+        <div class="grid">
+
+            <div class="card">
+
+                <i class="fas fa-check-circle"></i>
+
+                <h3>Authentic Products</h3>
+
+                <p>
+                    Guaranteed quality medications and healthcare products.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-shield-alt"></i>
+
+                <h3>Trusted Suppliers</h3>
+
+                <p>
+                    Products sourced from reputable manufacturers.
                 </p>
 
             </div>
@@ -296,21 +425,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
                 <h3>Fast Delivery</h3>
 
                 <p>
-                    Quick and reliable delivery
-                    services for your convenience.
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <i class="fas fa-tags"></i>
-
-                <h3>Affordable Prices</h3>
-
-                <p>
-                    Quality healthcare products
-                    at competitive prices.
+                    Convenient pickup and delivery options available.
                 </p>
 
             </div>
@@ -327,38 +442,87 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
     <div class="container">
 
-        <h2>Need Help Finding a Product?</h2>
+        <h2>Need a Product?</h2>
 
         <p>
-            Contact our pharmacy team and we'll
-            help you choose the right product.
+            Contact PrimeCare Pharmacy today and let us help you
+            find the right healthcare products for your needs.
         </p>
 
-        <a href="contact.html" class="btn">
-            Contact Us
+        <a href="https://wa.me/2348000000000"
+        class="btn">
+
+            Order Via WhatsApp
+
         </a>
 
     </div>
 
 </section>
 
+<!-- FOOTER -->
+
 <footer>
 
     <div class="container">
 
-        <p>
-            © 2026 PrimeCare Pharmacy & Wellness Centre.
-            All Rights Reserved.
+        <div class="footer-content">
+
+            <div>
+
+                <h3>PrimeCare Pharmacy</h3>
+
+                <p>
+                    Providing trusted healthcare products
+                    and pharmaceutical services.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h3>Contact</h3>
+
+                <p>+234 800 000 0000</p>
+                <p>info@primecarepharmacy.com</p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+            © 2026 PrimeCare Pharmacy. All Rights Reserved.
         </p>
 
     </div>
 
 </footer>
 
-<a href="https://wa.me/234XXXXXXXXXX"
+<a href="https://wa.me/2348000000000"
 class="whatsapp-float">
-💬
+
+<i class="fab fa-whatsapp"></i>
+
 </a>
 
+<script src="js/script.js"></script>
+
 </body>
-  </html>
+</html>
